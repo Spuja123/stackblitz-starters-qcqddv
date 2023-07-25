@@ -136,7 +136,7 @@
 }
 
 .login-logo {
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/your_logo.png) no-repeat;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/your_logo.png) no-repeat;
   width: 167px;
   height: 46px;
 }
@@ -330,7 +330,7 @@
 }
 
 .home-logo {
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/your_logo_sm.png) no-repeat;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/your_logo_sm.png) no-repeat;
   width: 100%;
   height: 31px;
 }
@@ -511,66 +511,66 @@
   width: 48px;
   height: 48px;
   border-radius: 48px;
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/lock.svg) #fff2f2 no-repeat center;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/lock.svg) #fff2f2 no-repeat center;
 }
 
 .user {
   width: 18px;
   height: 18px;
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/user.svg) no-repeat center;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/user.svg) no-repeat center;
 }
 
 .password {
   width: 18px;
   height: 18px;
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/password.svg) no-repeat center;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/password.svg) no-repeat center;
 }
 
 .alert {
   width: 18px;
   height: 18px;
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/alert-input-form.svg) no-repeat center;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/alert-input-form.svg) no-repeat center;
   margin: 0;
 }
 
 .check {
   width: 20px;
   height: 20px;
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/check-circled.svg) no-repeat center;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/check-circled.svg) no-repeat center;
 }
 
 .info {
   width: 18px;
   height: 18px;
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/info.svg) no-repeat center;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/info.svg) no-repeat center;
 }
 
 .delete {
   width: 12px;
   height: 12px;
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/delete.svg) no-repeat center;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/delete.svg) no-repeat center;
 }
 
 .reorder {
   width: 12px;
   height: 12px;
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/reorder.svg) no-repeat center;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/reorder.svg) no-repeat center;
 }
 
 .confirmation {
   width: 24px;
   height: 24px;
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/confirmation-toast.svg) no-repeat center;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/confirmation-toast.svg) no-repeat center;
 }
 
 .delete-alert {
   width: 42px;
   height: 95px;
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/delete-alert.png) no-repeat center;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/delete-alert.png) no-repeat center;
 }
 
 .sort {
   width: 12px;
   height: 12px;
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/sort.svg) no-repeat center;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/sort.svg) no-repeat center;
 }

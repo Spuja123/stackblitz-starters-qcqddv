@@ -80,7 +80,7 @@ textarea {
 
 .login-more::after {
   content: '';
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/login.png) no-repeat right bottom;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/login.png) no-repeat right bottom;
   display: block;
   position: absolute;
   right: 62px;
@@ -99,7 +99,7 @@ textarea {
 }
 
 .login-more::after {
-  background: url(https://github.com/Spuja123/stackblitz-starters-qcqddv/blob/main/src/app/assets/img/login-sm.png) no-repeat right bottom;
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/login-sm.png) no-repeat right bottom;
   width: 100px;
   height: 100px;
 }
