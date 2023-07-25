@@ -1,0 +1,105 @@
+/* Add application styles & imports to this file! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b7b7b7;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666;
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  list-style-type: none;
+}
+
+input {
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+.login-more::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 137.35px;
+  left: 17.25px;
+  width: 166px;
+  height: 166px;
+  transform: rotate(-15deg);
+  flex-shrink: 0;
+  border-radius: 166px;
+  opacity: 0.25;
+  background: #d94e3b;
+  filter: blur(51px);
+}
+
+.login-more::after {
+  content: '';
+  background: url(/assets/img/login.png) no-repeat right bottom;
+  display: block;
+  position: absolute;
+  right: 62px;
+  bottom: 0;
+  width: 192px;
+  height: 192px;
+}
+
+.login-more::before {
+  top: 21.35px;
+  left: 17.25px;
+  width: 89.485px;
+  height: 89.485px;
+  opacity: 0.5;
+  border-radius: 89.485px;
+}
+
+.login-more::after {
+  background: url(/assets/img/login-sm.png) no-repeat right bottom;
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,146 @@
+<div class="limiter">
+  <div class="container-login">
+    <div class="wrap-login">
+      <form
+        class="login-form validate-form"
+        #loginForm="ngForm"
+        (ngSubmit)="performLogin(loginForm)"
+      >
+        <div class="login-frame">
+          <div class="login-logo"></div>
+          <div class="login-main-form">
+            <div class="login-form-heading">
+              <span class="login-form-lock"></span>
+              <span class="login-form-title p-b-43"> Welcome Back </span>
+            </div>
+            <div class="d-flex flex-column">
+              <div
+                class="wrap-input"
+                [ngClass]="{
+                  invalid: username.invalid && username.dirty,
+                  valid: username.valid && username.dirty
+                }"
+              >
+                <span class="user"></span>
+                <input
+                  type="text"
+                  name="username"
+                  ngModel
+                  required
+                  #username="ngModel"
+                  placeholder="Username"
+                  pattern="^[a-zA-Z]+ [a-zA-Z]+$"
+                />
+                <span
+                  *ngIf="username.valid && username.dirty"
+                  class="check"
+                ></span>
+              </div>
+              <div
+                class="wrap-input mb-0"
+                [ngClass]="{
+                  invalid: password.invalid && password.dirty,
+                  valid: password.valid && password.dirty
+                }"
+              >
+                <span class="password"></span>
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Password"
+                  #password="ngModel"
+                  ngModel
+                  required
+                  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
+                />
+                <span
+                  *ngIf="password.valid && password.dirty"
+                  class="check"
+                ></span>
+              </div>
+              <div
+                class="d-flex flex-column align-items-start"
+                *ngIf="loginForm.dirty && loginForm.invalid"
+              >
+                <p
+                  class="login-alert"
+                  *ngIf="
+                    username.errors?.['required'] &&
+                    username.dirty
+                  "
+                >
+                  <span class="alert"></span>
+                  <span>Please enter username</span>
+                </p>
+                <p
+                  class="login-alert"
+                  *ngIf="
+                  password.errors?.['required'] &&
+                  password.dirty
+                  "
+                >
+                  <span class="alert"></span>
+                  <span>Please enter password</span>
+                </p>
+                <p
+                  class="login-alert"
+                  *ngIf="
+                    username.errors?.['pattern'] &&
+                    username.dirty
+                  "
+                >
+                  <span class="alert"></span>
+                  <span>Please enter valid Username</span>
+                </p>
+                <p
+                  class="login-alert"
+                  *ngIf="
+                  password.errors?.['pattern'] &&
+                  password.dirty
+                  "
+                >
+                  <span class="alert"></span>
+                  <span
+                    >Please enter atleast 8 character with number, symbol,
+                    capital and small letter</span
+                  >
+                </p>
+              </div>
+              <div class="forget">
+                <a href="#"> Forgot Password? </a>
+              </div>
+            </div>
+            <div class="container-login-form-btn">
+              <button type="submit" class="login-form-btn">Login</button>
+            </div>
+          </div>
+        </div>
+        <div class="text-center p-t-46 p-b-20">
+          <span class="sign-up-text">
+            Don’t have an Account? <span class="bold-black">Sign Up</span>
+          </span>
+        </div>
+      </form>
+      <div class="login-more">
+        <div class="login-text">
+          <div class="login-bold-text">
+            <div class="d-flex">
+              <pre class="fw-bold">Digital </pre>
+              <pre>Platform</pre>
+            </div>
+            <div class="d-flex">
+              <pre>for distance </pre>
+              <pre class="fw-bold">learning</pre>
+            </div>
+          </div>
+          <div class="login-small-text">
+            <p>
+              Internet and online based digital technologies such as desktop
+              computers, mobile phones and other
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
