@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sign-in',
@@ -6,9 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./sign-in.component.css'],
 })
 export class SignInComponent {
-  constructor() {}
+  constructor(private router: Router) {}
 
   performLogin(loginForm: any) {
     console.log(loginForm);
+    loginForm.invalid && loginForm.control.markAllAsTouched();
+    loginForm.valid && this.router.navigate(['home']);
   }
 }
