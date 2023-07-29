@@ -32,7 +32,7 @@
 .wrap-login {
   width: 100%;
   background: #fff;
-  overflow: hidden;
+  overflow: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
