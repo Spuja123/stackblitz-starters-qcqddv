@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-nav-bar',
@@ -11,7 +12,9 @@ export class NavBarComponent {
 
   isOpen = false;
   isDropdownOpen = false;
-  constructor() {}
+  brandLogo =
+    'https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/your_logo.png';
+  constructor(private router: Router) {}
 
   toggleNavbar() {
     this.isOpen = !this.isOpen;
@@ -19,5 +22,8 @@ export class NavBarComponent {
 
   toggleDropDown() {
     this.isDropdownOpen = !this.isDropdownOpen;
+  }
+  ngOnInit() {
+    console.log(this.router);
   }
 }
