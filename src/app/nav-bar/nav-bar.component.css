@@ -1,0 +1,8 @@
+.login-logo {
+  background: url(https://raw.githubusercontent.com/Spuja123/stackblitz-starters-qcqddv/main/src/app/assets/img/your_logo.png)
+    no-repeat;
+  min-width: 165px;
+  width: 100%;
+  min-height: 46px;
+  height: 100%;
+}

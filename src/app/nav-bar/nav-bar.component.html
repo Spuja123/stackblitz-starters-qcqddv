@@ -1,69 +1,25 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container-fluid">
-    <div class="navbar-header">
-      <button
-        type="button"
-        class="navbar-toggle collapsed"
-        (click)="toggleNavbar()"
-      >
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">My Courses</a>
-    </div>
-
-    <div class="collapse navbar-collapse" [ngClass]="{ in: isOpen }">
-      <ul class="nav navbar-nav">
-        <li class="active">
-          <a href="#">Link <span class="sr-only">(current)</span></a>
+    <a class="login-logo"></a>
+    <a class="navbar-toggler" (click)="toggleNavbar()">
+      <span class="navbar-toggler-icon"></span>
+    </a>
+    <div class="collapse navbar-collapse" [ngClass]="{ collapse: !isOpen }">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li (click)="toggleNavbar()">
-          <a href="#">Link</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
         </li>
-        <li
-          class="dropdown"
-          [ngClass]="{ open: isDropdownOpen }"
-          (click)="toggleDropDown()"
-          (click)="toggleNavbar()"
-        >
-          <a href="#" class="dropdown-toggle" role="button"
-            >Dropdown <span class="caret"></span
-          ></a>
-          <ul class="dropdown-menu" role="menu">
-            <li>
-              <a href="#">Action</a>
-            </li>
-            <li>
-              <a href="#">Another action</a>
-            </li>
-            <li>
-              <a href="#">Something else here</a>
-            </li>
-            <li class="divider"></li>
-            <li>
-              <a href="#">Separated link</a>
-            </li>
-            <li class="divider"></li>
-            <li>
-              <a href="#">One more separated link</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search" />
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li (click)="toggleNavbar()">
-          <a href="#">Profile</a>
-        </li>
-        <li (click)="toggleNavbar()">
-          <a href="#">Logout</a>
+        <li class="nav-item">
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Disabled</a
+          >
         </li>
       </ul>
     </div>
